@@ -23,3 +23,13 @@
 2016-12-13_00:33:05.515 [main] INFO  com.test.professor.Professor - listOfPresentedStudents() with group java group
 2016-12-13_00:33:05.516 [main] INFO  com.test.professor.ProfessorTest - Test listOfPresentedStudentsTest spent 3822 microseconds
 2016-12-13_00:33:05.521 [main] INFO  c.t.s.CourseLeaderAppointmentImplTest - Test selectCourseLeaderTest spent 1166 microseconds
+2016-12-13_00:43:33.121 [main] INFO  com.test.classbook.ClassBook - getStudentByLastName() with lastName Walton
+2016-12-13_00:43:33.147 [main] INFO  com.test.classbook.ClassBookTest - Test selectStudentByLastNameTest spent 536808 microseconds
+2016-12-13_00:43:33.152 [main] INFO  com.test.classbook.ClassBook - getAllStudentsInGroup() with group .net group
+2016-12-13_00:43:33.153 [main] INFO  com.test.classbook.ClassBookTest - Test getAllStudentsInGroupTest spent 1554 microseconds
+2016-12-13_00:43:33.155 [main] INFO  com.test.classbook.ClassBook - getStudentBySex() with sex WOMAN
+2016-12-13_00:43:33.156 [main] INFO  com.test.classbook.ClassBookTest - Test getStudentBySexTest spent 2041 microseconds
+2016-12-13_00:43:33.164 [main] INFO  com.test.professor.ProfessorTest - Test introduceTest spent 98 microseconds
+2016-12-13_00:43:33.169 [main] INFO  com.test.professor.Professor - listOfPresentedStudents() with group java group
+2016-12-13_00:43:33.169 [main] INFO  com.test.professor.ProfessorTest - Test listOfPresentedStudentsTest spent 4448 microseconds
+2016-12-13_00:43:33.176 [main] INFO  c.t.s.CourseLeaderAppointmentImplTest - Test selectCourseLeaderTest spent 1193 microseconds
