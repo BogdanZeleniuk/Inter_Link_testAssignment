@@ -10,25 +10,25 @@ public interface ClassBookService {
 
     /**
      *
-     * @param allStudents - a List of all Students in a School (for example)
-     * @param lastName - a name of student/students we want to look for
-     * @return the String (to don`t write cycle in main method) of student/students we want to find by name
+     * @param allStudents - a List of all Students at School (for example)
+     * @param lastName - a name of a student/students we want to look for
+     * @return the String (not to write cycle in main method) of a student/students we want to find by name
      */
     String getStudentByLastName(List<Student> allStudents, String lastName);
 
     /**
      *
-     * @param allStudents - a List of all Students in a School (for example)
-     * @param group - a group object we want to filter our students
-     * @return - the String (to don`t write cycle in main method) of student/students we want to find in definite group
+     * @param allStudents - a List of all Students at School (for example)
+     * @param group - a group object by which we want to filter our students
+     * @return - the String (not to write cycle in main method) of a student/students we want to find in a definite group
      */
     String getAllStudentsInGroup(List<Student> allStudents, Group group);
 
     /**
      *
-     * @param allStudents - a List of all Students in a School (for example)
-     * @param sex - a sex we want to filter our students
-     * @return - the String (to don`t write cycle in main method) of student/students we want to find by sex
+     * @param allStudents - a List of all Students at School (for example)
+     * @param sex - a sex by which we want to filter our students
+     * @return - the String (not to  write cycle in main method) of a student/students we want to find by sex
      */
     String getStudentBySex(List<Student> allStudents, Sex sex);
 }

@@ -8,8 +8,9 @@ import com.test.student.Student;
 
 import java.util.ArrayList;
 import java.util.List;
+
 /**
- List of data for testing our application
+ A list of data for testing our application
  */
 public class TestData {
 

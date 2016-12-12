@@ -10,10 +10,10 @@ import java.util.stream.Collectors;
 
 public class CourseLeaderAppointmentImpl implements CourseLeaderAppointment {
     /**
-        If someone in definite group has the better grade - than they are CourseLeader.
-        If we have 2 or more students with equal grades - than we determine our CourseLeader
-        that has the smaller percentage of skipping lessons.
-        You can implement CourseLeaderAppointment and determine CourseLeader in other way
+        If someone in a definite group has the best grade - then they (he/she) are CourseLeader.
+        If we have 2 or more students with equal grades - then we determine our CourseLeader
+        who has the smaller percentage of skipped lessons.
+        You can implement CourseLeaderAppointment and determine CourseLeader in another way
      */
 
     private static final Logger LOG = LoggerFactory.getLogger(CourseLeaderAppointmentImpl.class);

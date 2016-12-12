@@ -3,7 +3,7 @@ package com.test.professor;
 public interface BasedProfessorService {
     /**
      *
-     * @return the introducing of every professors before the lecture
+     * @return an introduce of every professor before a lecture
      */
     String introduce();
 }
